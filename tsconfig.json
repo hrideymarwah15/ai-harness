@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "paths": {
+      "@co-team/core": ["../core/dist/index.d.ts"],
+      "@co-team/core/*": ["../core/dist/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
